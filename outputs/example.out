@@ -1,0 +1,36 @@
+Loaded bio-DM-LC/bio-DM-LC.edges with 658 nodes and 1129 edges.
+Graph ID for outputs: 1787
+--------------------
+Loaded rt-twitter-copen/rt-twitter-copen.mtx with 761 nodes and 1029 edges.
+Graph ID for outputs: 1790
+--------------------
+Performing tasks (a) and (b) for graph ID 1787
+Counting motifs for real graph...
+Motifs counts for real graph: [10336, 201, 88741, 29064, 3021, 9647, 1419, 13]
+
+Generating 100 random graphs...
+Counting motifs for 100 random graphs...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:31<00:00,  1.52s/it]
+Motifs counts for random graphs (mean): [1.050030e+04 1.097700e+02 8.689896e+04 7.532968e+04 6.376180e+03
+ 4.493800e+02 2.037700e+02 5.700000e+00]
+
+Motif counts saved as table to: outputs/1787.csv
+Motif counts plot saved as jpg file to: outputs/1787.jpg
+Motifs graphs saved as png files to: outputs/1787_*.png
+Z-scores plot saved as jpg file to: outputs/graph_1787.jpg
+--------------------------------------------------
+Performing tasks (a) and (b) for graph ID 1790
+Counting motifs for real graph...
+Motifs counts for real graph: [6979, 149, 37569, 34618, 4294, 183, 179, 11]
+
+Generating 100 random graphs...
+Counting motifs for 100 random graphs...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:17<00:00,  1.29it/s]
+Motifs counts for random graphs (mean): [7.266700e+03 5.310000e+01 3.985949e+04 4.410296e+04 2.298290e+03
+ 2.054900e+02 5.171000e+01 9.500000e-01]
+
+Motif counts saved as table to: outputs/1790.csv
+Motif counts plot saved as jpg file to: outputs/1790.jpg
+Motifs graphs saved as png files to: outputs/1790_*.png
+Z-scores plot saved as jpg file to: outputs/graph_1790.jpg
+--------------------------------------------------
